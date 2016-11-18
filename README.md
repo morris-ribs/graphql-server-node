@@ -41,3 +41,4 @@ It is going to start the server on the port 3000
 
 In a web browser, open http://localhost:3000/graphql/
 
+![Alt text](/img/screenshot.png)
