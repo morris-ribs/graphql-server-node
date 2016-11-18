@@ -1,4 +1,4 @@
-# cv-graphql-nodejs
+# graphql-server-node
 
 This is a GraphQL server, coded in NodeJs, that makes queries to retrieves data from a MongoDB instance.
 
