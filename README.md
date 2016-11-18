@@ -1,4 +1,4 @@
-# cv-graphql-nodejs
+# graphql-server-node
 
 This is a GraphQL server, coded in NodeJs, that makes queries to retrieves data from a MongoDB instance.
 
@@ -19,13 +19,13 @@ Launch Mongo client
 $ mongo
 ```
 
-Then, create a DB candidates_test
+Then, create a DB **dbdrinks**
 
 ```
-$ use candidates_test
+$ use dbdrinks
 ```
 
-Finally, paste the contents of https://github.com/morris-ribs/cv-server-Go/blob/master/candidate_example.json
+Finally, paste the contents of https://github.com/morris-ribs/rest-go/blob/master/mongo_insert.txt
 
 
 # 3) Run the server
@@ -41,4 +41,3 @@ It is going to start the server on the port 3000
 
 In a web browser, open http://localhost:3000/graphql/
 
-![Alt text](/img/screenshot.png)
