@@ -41,4 +41,20 @@ It is going to start the server on the port 3000
 
 In a web browser, open http://localhost:3000/graphql/
 
+And then, do the **CRUD**
+
+## 4.1) Creation
+
+![Alt text](/img/screenshotCreate.png)
+
+## 4.2) Read
+
 ![Alt text](/img/screenshot.png)
+
+## 4.3) Update
+
+![Alt text](/img/screenshotUpdate.png)
+
+## 4.4) Delete
+
+![Alt text](/img/screenshotDelete.png)
