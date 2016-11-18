@@ -6,7 +6,7 @@ This is a GraphQL server, coded in NodeJs, that makes queries to retrieves data 
 
 After installing your MongoDB instance, open a cmd window and run the following command:
 ```
-# launch mmongo daemon
+# launch mongo daemon
 $ mongod
 ```
 
@@ -29,6 +29,11 @@ Finally, paste the contents of https://github.com/morris-ribs/rest-go/blob/maste
 
 
 # 3) Run the server
+
+First of all, install of the dependencies, typing in your terminal command:
+```
+$ npm install
+```
 
 In the root folder of the project, run
 ```
