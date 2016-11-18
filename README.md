@@ -2,6 +2,10 @@
 
 This is a GraphQL server, coded in NodeJs, that makes queries to retrieves data from a MongoDB instance.
 
+We are going to manipulate an inventory of a bar. It will consist of a list of drinks, each one with their types, unit prices, and stock.
+
+Follow the steps below in order to run it:
+
 # 1) Launch mongo daemon!
 
 After installing your MongoDB instance, open a cmd window and run the following command:
