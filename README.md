@@ -19,7 +19,7 @@ Launch Mongo client
 $ mongo
 ```
 
-Then, create a DB **drinks**
+Then, create a DB **dbdrinks**
 
 ```
 $ use dbdrinks
