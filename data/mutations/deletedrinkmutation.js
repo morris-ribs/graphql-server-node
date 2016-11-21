@@ -1,8 +1,6 @@
 import { GraphQLObjectType, GraphQLInputObjectType, GraphQLString, GraphQLNonNull, GraphQLBoolean } from 'graphql';
 import DrinkType from '../types/drinktype';
 import Drink from '../../databasemodel/Drink';
-import mongoose from 'mongoose';
-import q from 'q';
 
 let DeleteDrinkType = new GraphQLInputObjectType({
     name: 'DeleteDrink',
