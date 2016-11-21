@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "babel-polyfill": "^6.16.0",
-    "mongoose": "^4.6.8"
+    "mongoose": "^4.6.8",
+    "q": "^1.4.1"
   },
   "devDependencies": {
     "babel": "^6.5.2",
