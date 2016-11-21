@@ -4,7 +4,7 @@ import DrinkType from './drinktype';
 
 // this represents all READ operations
 let QueryType = new GraphQLObjectType({
-    name:'Query',
+    name: 'Query',
     fields: () => ({
         drinks: {
             type: new GraphQLList(DrinkType),
@@ -14,20 +14,19 @@ let QueryType = new GraphQLObjectType({
                     type: GraphQLString
                 }
             },
-            resolve: (root, {name}) => 
-            { 
-                if (name != null && name != "")
-                    return Drink.find({'name': name}).exec();
-                
-                return Drink.find().exec(function(err, drinksArr){
-                    if(err) console.log(err);
-                    else console.log('no errors');
-                    console.log(drinksArr);
-                    return drinksArr;
-                });
-            }
-            // function that GraphQL will execute in order to resolve the field
-            // here we get all the candidates from the DB
+            resolve: (root, { name }) => {
+                    if (name != null && name != "")
+                        return Drink.find({ 'name': name }).exec();
+
+                    return Drink.find().exec(function(err, drinksArr) {
+                        if (err) console.log(err);
+                        else console.log('no errors');
+                        console.log(drinksArr);
+                        //   return drinksArr;
+                    });
+                }
+                // function that GraphQL will execute in order to resolve the field
+                // here we get all the candidates from the DB
         }
     })
 });
